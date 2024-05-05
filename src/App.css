@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+.head{
+        text-align: center;
+        margin-top: 50px;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        width: 250px;
+        height: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search{
+        width: 500px;
+        background-color: rgb(223, 247, 249);
+        height: 50px;
+        border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.model {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+}
+.container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.back-btn {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.submit-but{
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.course-details {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+}
+
+.course-details h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+}
+
+.course-details h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+}
+
+.course-details p {
+        margin-bottom: 5px;
+}
+
+.course-details summary {
+        cursor: pointer;
+}
+.dashboard-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+}
+
+.courses-list {
+        list-style: none;
+        padding: 0;
+}
+
+.course-item {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+}
+
+.course-info {
+        display: flex;
+        align-items: center;
+}
+
+.thumbnail {
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+        margin-right: 20px;
+}
+
+.details {
+        flex: 1;
+}
+
+.instructor,
+.due-date {
+        margin: 5px 0;
+}
+
+.progress-bar {
+        margin-top: 10px;
+}
+
+.complete-button {
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+}
+
+.complete-button:hover {
+        background-color: #0056b3;
+}
+
+.progress-button{
+        padding: 10px;
+                background-color: #012347;
+                color: #fff;
+                margin-top: 10px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+
 }
